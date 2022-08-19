@@ -7,8 +7,9 @@ const Datastore = require("nedb");
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 require("dotenv").config();
 
+const port = process.env.PORT;
 const app = express();
-app.listen(3000, () => console.log("Listening into 3000"));
+app.listen(port || 3000, () => console.log(`Listening into 3000 ${port}`));
 app.use(express.static("public")); 
 app.use(express.json());
 
