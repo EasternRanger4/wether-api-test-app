@@ -1,0 +1,9 @@
+div {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin-top: 2px;
+    border-radius: 7px;
+    float: left;
+}
+#map { height: 180px; }

@@ -1,0 +1,20 @@
+#div5 {
+    float:right;
+}
+#input1 {
+    width: 50px;
+}
+#button1 {
+    margin-top: 5px;
+}
+#packing {
+    background-color: green;
+    color: white;
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    align-items: center;
+    text-align: center;
+}
